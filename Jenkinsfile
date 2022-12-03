@@ -5,9 +5,6 @@ pipeline {
        registryCredential = 'DockerHub'
        dockerImage = ''
            }
-  tools {
-    maven 'Maven' 
-       }
   stages {
     stage ('Build') {
       steps {
